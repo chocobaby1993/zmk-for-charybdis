@@ -85,12 +85,12 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans       &trans     &trans     &trans     &trans     &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans       &trans     &trans     &trans     &trans     &trans  &trans
-&trans  &trans     &trans     &mkp MCLK  &trans     &trans       &trans     &trans     &mkp MCLK  &trans     &trans  &trans
-&trans  &kp LANG1  &kp LANG2  &kp LANG3  &kp LANG4  &kp LANG5    &kp LANG6  &kp LANG7  &kp LANG8  &kp LANG9  &trans  &trans
-                              &trans     &mkp LCLK  &mkp RCLK    &mkp RCLK  &mkp LCLK
-                                         &trans     &trans       &trans
+&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &mkp MCLK  &trans     &trans       &trans     &trans     &mkp MCLK  &trans     &trans  &trans
+&trans  &none   &none   &kp LANG3  &kp LANG4  &kp LANG5    &kp LANG6  &kp LANG7  &kp LANG8  &kp LANG9  &trans  &trans
+                        &trans     &mkp LCLK  &mkp RCLK    &mkp RCLK  &mkp LCLK
+                                   &trans     &trans       &trans
             >;
 
             trackball-bindings = <&tmv_fine>;//精准指针层
